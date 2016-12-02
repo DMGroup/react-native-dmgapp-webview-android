@@ -1,0 +1,28 @@
+{
+  "name": "react-native-dmgapp-webview-android",
+  "version": "0.1.0",
+  "description": "Android's WebView for React Native",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMGroup/react-native-dmgapp-webview-android.git"
+  },
+
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "web",
+    "webview",
+    "android"
+  ],
+  "author": "Dark Matter Group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DMGroup/react-native-dmgapp-webview-android/issues"
+  },
+  "homepage": "https://github.com/DMGroup/react-native-dmgapp-webview-android#readme"
+}
