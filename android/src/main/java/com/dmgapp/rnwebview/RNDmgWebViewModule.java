@@ -25,7 +25,7 @@ public class RNDmgWebViewModule extends ReactContextBaseJavaModule implements Ac
     @VisibleForTesting
     public static final String REACT_CLASS = "RNWebViewAndroidModule";
 
-    private RNWebViewPackage aPackage;
+    private RNDmgWebViewPackage aPackage;
 
     /* FOR UPLOAD DIALOG */
     private final static int REQUEST_SELECT_FILE = 1001;
@@ -45,11 +45,11 @@ public class RNDmgWebViewModule extends ReactContextBaseJavaModule implements Ac
         return REACT_CLASS;
     }
 
-    public void setPackage(RNWebViewPackage aPackage) {
+    public void setPackage(RNDmgWebViewPackage aPackage) {
         this.aPackage = aPackage;
     }
 
-    public RNWebViewPackage getPackage() {
+    public RNDmgWebViewPackage getPackage() {
         return this.aPackage;
     }
 

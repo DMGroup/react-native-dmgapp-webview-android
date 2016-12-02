@@ -53,7 +53,7 @@ public class RNDmgWebViewManager extends SimpleViewManager<RNDmgWebView> {
         return rnwv;
     }
 
-    public void setPackage(RNWebViewPackage aPackage) {
+    public void setPackage(RNDmgWebViewPackage aPackage) {
         this.aPackage = aPackage;
     }
 

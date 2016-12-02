@@ -45,8 +45,8 @@ class RNDmgWebView extends WebView implements LifecycleEventListener {
         public void onPageFinished(WebView view, String url) {
             mEventDispatcher.dispatchEvent(new NavigationStateChangeEvent(getId(), SystemClock.nanoTime(), view.getTitle(), false, url, view.canGoBack(), view.canGoForward()));
 
-            if(RNWebView.this.getInjectedJavaScript() != null) {
-                view.loadUrl("javascript:(function() {\n" + RNWebView.this.getInjectedJavaScript() + ";\n})();");
+            if(RNDmgWebView.this.getInjectedJavaScript() != null) {
+                view.loadUrl("javascript:(function() {\n" + RNDmgWebView.this.getInjectedJavaScript() + ";\n})();");
             }
         }
 
@@ -82,7 +82,7 @@ class RNDmgWebView extends WebView implements LifecycleEventListener {
         }
     }
 
-    public RNWebView(RNDmgWebViewManager viewManager, ThemedReactContext reactContext) {
+    public RNDmgWebView(RNDmgWebViewManager viewManager, ThemedReactContext reactContext) {
         super(reactContext);
 
         mViewManager = viewManager;
@@ -155,7 +155,7 @@ class RNDmgWebView extends WebView implements LifecycleEventListener {
         return new GeoWebChromeClient();
     }
 
-    public RNWebViewModule getModule() {
+    public RNDmgWebViewModule getModule() {
         return mViewManager.getPackage().getModule();
     }
 
