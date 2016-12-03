@@ -45,21 +45,21 @@ var WebViewAndroid = React.createClass({
   goBack: function() {
     RCTUIManager.dispatchViewManagerCommand(
       this._getWebViewHandle(),
-      RCTUIManager.RNWebViewAndroid.Commands.goBack,
+      RCTUIManager.RNDmgWebViewAndroid.Commands.goBack,
       null
     );
   },
   goForward: function() {
     RCTUIManager.dispatchViewManagerCommand(
       this._getWebViewHandle(),
-      RCTUIManager.RNWebViewAndroid.Commands.goForward,
+      RCTUIManager.RNDmgWebViewAndroid.Commands.goForward,
       null
     );
   },
   reload: function() {
     RCTUIManager.dispatchViewManagerCommand(
       this._getWebViewHandle(),
-      RCTUIManager.RNWebViewAndroid.Commands.reload,
+      RCTUIManager.RNDmgWebViewAndroid.Commands.reload,
       null
     );
   },
