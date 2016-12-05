@@ -23,7 +23,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 public class RNDmgWebViewModule extends ReactContextBaseJavaModule implements ActivityEventListener {
 
     @VisibleForTesting
-    public static final String REACT_CLASS = "RNWebViewAndroidModule";
+    public static final String REACT_CLASS = "RNDmgWebViewAndroidModule";
 
     private RNDmgWebViewPackage aPackage;
 
