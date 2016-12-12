@@ -59,7 +59,7 @@ var { StyleSheet } = React;
 
 var WebViewAndroid = require('react-native-dmgapp-webview-android');
 
-var SITE_URL = "https://www.google.com";
+var SITE_URL = "http://www.whdi.gov.cn/zw/";
 
 var WebViewAndroidDmgApp = React.createClass({
     getInitialState: function() {
